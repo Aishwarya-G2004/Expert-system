@@ -1,3 +1,7 @@
+import collections
+import collections.abc
+collections.Mapping = collections.abc.Mapping
+
 from experta import KnowledgeEngine, Rule, Fact, Field, MATCH
 import pandas as pd
 
